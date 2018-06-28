@@ -60,12 +60,12 @@
 		725AE4E1BA810671418855A6 /* Pods-HTTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTTool_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTTool_Example/Pods-HTTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73FA2635BF37436CECA4BB6C /* Pods-HTTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTTool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTTool_Tests/Pods-HTTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A03156BC287C479F6E81346F /* HTTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HTTool.podspec; path = ../HTTool.podspec; sourceTree = "<group>"; };
+		A03156BC287C479F6E81346F /* HTTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HTTool.podspec; path = ../HTTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ABA84D5997737017B195CFB5 /* Pods_HTTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC48D61B5E6B95D69D15E44 /* Pods-HTTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTTool_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTTool_Example/Pods-HTTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C381E1A745D5777DDD8E6D4B /* Pods_HTTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D19B3B057058E326BD53CD35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EEC0A380EC76BF9D567D03EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D19B3B057058E326BD53CD35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EEC0A380EC76BF9D567D03EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F0F0EE02CFED98F4B49942A7 /* Pods-HTTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTTool_Tests/Pods-HTTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
