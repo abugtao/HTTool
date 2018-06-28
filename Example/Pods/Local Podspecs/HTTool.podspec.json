@@ -1,0 +1,22 @@
+{
+  "name": "HTTool",
+  "version": "0.1.0",
+  "summary": "A short description of HTTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/abugtao@163.com/HTTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "abugtao@163.com": "zhanghaitao@baoyinxiaofei.com"
+  },
+  "source": {
+    "git": "https://github.com/abugtao@163.com/HTTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HTTool/Classes/**/*"
+}
