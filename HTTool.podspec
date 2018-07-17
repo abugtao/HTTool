@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTTool'
-  s.version          = '0.11.0'
+  s.version          = '0.12.0'
   s.summary          = 'my tool'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,14 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'HTTool/Classes/**/*'
+  
+  s.subspec 'category' do |category|
+      category.source_files = 'HTTool/Classes/category/**/*'
+      
+  end
+  
+  
+  
   
   # s.resource_bundles = {
   #   'HTTool' => ['HTTool/Assets/*.png']
