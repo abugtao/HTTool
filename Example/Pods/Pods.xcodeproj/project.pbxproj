@@ -19,8 +19,6 @@
 		CE12216D20FDF305002E3563 /* NSDictionary+BYHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12215D20FDF304002E3563 /* NSDictionary+BYHelper.h */; };
 		CE12216E20FDF305002E3563 /* UIImage+BYCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = CE12215E20FDF304002E3563 /* UIImage+BYCommon.m */; };
 		CE12216F20FDF305002E3563 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12215F20FDF304002E3563 /* UIViewExt.h */; };
-		CE12217020FDF305002E3563 /* UITextField+BYHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12216020FDF304002E3563 /* UITextField+BYHelper.h */; };
-		CE12217120FDF305002E3563 /* UITextField+BYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE12216120FDF304002E3563 /* UITextField+BYHelper.m */; };
 		CE12217220FDF305002E3563 /* UILabel+BYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE12216220FDF304002E3563 /* UILabel+BYHelper.m */; };
 		CE12217320FDF305002E3563 /* UIView+BYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE12216320FDF305002E3563 /* UIView+BYHelper.m */; };
 		CE12217420FDF305002E3563 /* UIButton+BYHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12216420FDF305002E3563 /* UIButton+BYHelper.h */; };
@@ -83,8 +81,6 @@
 		CE12215D20FDF304002E3563 /* NSDictionary+BYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BYHelper.h"; sourceTree = "<group>"; };
 		CE12215E20FDF304002E3563 /* UIImage+BYCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BYCommon.m"; sourceTree = "<group>"; };
 		CE12215F20FDF304002E3563 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
-		CE12216020FDF304002E3563 /* UITextField+BYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BYHelper.h"; sourceTree = "<group>"; };
-		CE12216120FDF304002E3563 /* UITextField+BYHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BYHelper.m"; sourceTree = "<group>"; };
 		CE12216220FDF304002E3563 /* UILabel+BYHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BYHelper.m"; sourceTree = "<group>"; };
 		CE12216320FDF305002E3563 /* UIView+BYHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BYHelper.m"; sourceTree = "<group>"; };
 		CE12216420FDF305002E3563 /* UIButton+BYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BYHelper.h"; sourceTree = "<group>"; };
@@ -239,8 +235,6 @@
 				CE12215E20FDF304002E3563 /* UIImage+BYCommon.m */,
 				CE12216B20FDF305002E3563 /* UILabel+BYHelper.h */,
 				CE12216220FDF304002E3563 /* UILabel+BYHelper.m */,
-				CE12216020FDF304002E3563 /* UITextField+BYHelper.h */,
-				CE12216120FDF304002E3563 /* UITextField+BYHelper.m */,
 				CE12216820FDF305002E3563 /* UIView+BYHelper.h */,
 				CE12216320FDF305002E3563 /* UIView+BYHelper.m */,
 				CE12215F20FDF304002E3563 /* UIViewExt.h */,
@@ -323,7 +317,6 @@
 			files = (
 				CE12216D20FDF305002E3563 /* NSDictionary+BYHelper.h in Headers */,
 				CE12218420FDF44B002E3563 /* Define.h in Headers */,
-				CE12217020FDF305002E3563 /* UITextField+BYHelper.h in Headers */,
 				CE12217720FDF305002E3563 /* NSArray+BYHelper.h in Headers */,
 				CE12218220FDF44B002E3563 /* ColorAndFont.h in Headers */,
 				CE12217620FDF305002E3563 /* UIImage+BYCommon.h in Headers */,
@@ -464,7 +457,6 @@
 				CE12216E20FDF305002E3563 /* UIImage+BYCommon.m in Sources */,
 				CE12217520FDF305002E3563 /* NSDictionary+BYHelper.m in Sources */,
 				348C1A423F0221979E0CDC45277E60C5 /* HTTool-dummy.m in Sources */,
-				CE12217120FDF305002E3563 /* UITextField+BYHelper.m in Sources */,
 				CE12217920FDF305002E3563 /* UIButton+BYHelper.m in Sources */,
 				029D8D1F2FE4C6440A269FA0673B2AAC /* ReplaceMe.m in Sources */,
 				CE12217A20FDF305002E3563 /* NSArray+BYHelper.m in Sources */,
