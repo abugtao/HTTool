@@ -7,9 +7,9 @@
 //
 
 #import "UITextField+BYHelper.h"
-#import "ColorAndFont.h"
-#import "UIViewExt.h"
-
+//#import "ColorAndFont.h"
+//#import "UIViewExt.h"
+#import "HTTool.h"
 @implementation UITextField (BYHelper)
 + (id)textFieldWithFrame:(CGRect)frame TextColor:(UIColor *)textColor textFont:(UIFont *)textfont placeholder:(NSString *)placeholder placeholderColor:(UIColor *)pcolor placeholderFont:(UIFont *)pfont{
     UITextField *tf = [[UITextField alloc] initWithFrame:frame];
