@@ -36,6 +36,7 @@
 		CE12218320FDF44B002E3563 /* EncoderDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12217F20FDF44B002E3563 /* EncoderDecoder.h */; };
 		CE12218420FDF44B002E3563 /* Define.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12218020FDF44B002E3563 /* Define.h */; };
 		CE12218520FDF44B002E3563 /* Single.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12218120FDF44B002E3563 /* Single.h */; };
+		CE12218820FDF89B002E3563 /* HTTool.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12218720FDF89A002E3563 /* HTTool.h */; };
 		DA1D512B23CB862F3AE7E39DC0C61793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -99,7 +100,7 @@
 		CE12217F20FDF44B002E3563 /* EncoderDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncoderDecoder.h; sourceTree = "<group>"; };
 		CE12218020FDF44B002E3563 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		CE12218120FDF44B002E3563 /* Single.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
-		CE12218620FDF4B9002E3563 /* HTTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTool.h; sourceTree = "<group>"; };
+		CE12218720FDF89A002E3563 /* HTTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTool.h; path = HTTool/Classes/HTTool.h; sourceTree = "<group>"; };
 		CE1748A120E4D266003CE7FF /* HTTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTool.m; sourceTree = "<group>"; };
 		CE1748A220E4D266003CE7FF /* HTTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTool.h; sourceTree = "<group>"; };
 		E05F42286365E32B68BADBBA36395FAC /* HTTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTTool.xcconfig; sourceTree = "<group>"; };
@@ -301,7 +302,7 @@
 		FC9DACB58EE3924390DC6F5AF4B00B93 /* HTTool */ = {
 			isa = PBXGroup;
 			children = (
-				CE12218620FDF4B9002E3563 /* HTTool.h */,
+				CE12218720FDF89A002E3563 /* HTTool.h */,
 				CE12217D20FDF43F002E3563 /* macro */,
 				CE12215C20FDF2C6002E3563 /* category */,
 				CE1748A020E4D266003CE7FF /* tool */,
@@ -332,6 +333,7 @@
 				61599BF0709655D2ADBF91493F22B493 /* HTTool-umbrella.h in Headers */,
 				CE12217820FDF305002E3563 /* UIView+BYHelper.h in Headers */,
 				CE12217420FDF305002E3563 /* UIButton+BYHelper.h in Headers */,
+				CE12218820FDF89B002E3563 /* HTTool.h in Headers */,
 				CE12218320FDF44B002E3563 /* EncoderDecoder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
