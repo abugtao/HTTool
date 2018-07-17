@@ -30,11 +30,18 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HTTool/Classes/**/*'
+s.source_files = 'HTTool/Classes/*.{h,m}'
   
   s.subspec 'category' do |category|
       category.source_files = 'HTTool/Classes/category/**/*'
-      
+  end
+  
+  s.subspec 'macro' do |macro|
+      macro.source_files = 'HTTool/Classes/macro/**/*'
+  end
+  
+  s.subspec 'test' do |test|
+      test.source_files = 'HTTool/Classes/test/**/*'
   end
   
   

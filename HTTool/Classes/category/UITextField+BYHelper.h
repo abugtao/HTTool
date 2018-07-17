@@ -12,8 +12,8 @@
 
 //+ (id)labelWithTextColor:(UIColor *)color font:(UIFont *)font textAlignment:(NSTextAlignment)alignment;
 
-+ (id)textFieldWithFrame:(CGRect)frame TextColor:(UIColor *)textColor textFont:(UIFont *)textfont placeholder:(NSString *)placeholder placeholderColor:(UIColor *)pcolor placeholderFont:(UIFont *)pfont;
-
-
--(void)creatLeftView:(CGFloat)width image:(UIImage *)image text:(NSString *)textStr;
+//+ (id)textFieldWithFrame:(CGRect)frame TextColor:(UIColor *)textColor textFont:(UIFont *)textfont placeholder:(NSString *)placeholder placeholderColor:(UIColor *)pcolor placeholderFont:(UIFont *)pfont;
+//
+//
+//-(void)creatLeftView:(CGFloat)width image:(UIImage *)image text:(NSString *)textStr;
 @end
