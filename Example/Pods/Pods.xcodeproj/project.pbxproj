@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		029D8D1F2FE4C6440A269FA0673B2AAC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 260BE33EDB4C3DBD36A8C5D31F82BB7D /* ReplaceMe.m */; };
 		070BE704CD8CEB16DC42FF4271F7F4D0 /* Pods-HTTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A688FE753724DB9987A53E86BC20AB /* Pods-HTTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0927FBF50B15F4A54CF1D022E674A980 /* Pods-HTTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C37E0C34C8B604041F63B8AE60ACE5B /* Pods-HTTool_Tests-dummy.m */; };
 		1EEA48CC77EFAEB0B64143FEFA62414B /* Pods-HTTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F44293B3340977DD11DE0ADE551C11B7 /* Pods-HTTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,6 +34,10 @@
 		CE12218420FDF44B002E3563 /* Define.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12218020FDF44B002E3563 /* Define.h */; };
 		CE12218520FDF44B002E3563 /* Single.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12218120FDF44B002E3563 /* Single.h */; };
 		CE12218820FDF89B002E3563 /* HTTool.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12218720FDF89A002E3563 /* HTTool.h */; };
+		CE12218B20FE058F002E3563 /* UITextField+BYHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12218920FE058F002E3563 /* UITextField+BYHelper.h */; };
+		CE12218C20FE058F002E3563 /* UITextField+BYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE12218A20FE058F002E3563 /* UITextField+BYHelper.m */; };
+		CE12219020FE0946002E3563 /* test.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12218E20FE0946002E3563 /* test.h */; };
+		CE12219120FE0946002E3563 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = CE12218F20FE0946002E3563 /* test.m */; };
 		DA1D512B23CB862F3AE7E39DC0C61793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +55,6 @@
 		02D97B2604847A20ACA359717BCC2E15 /* Pods-HTTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		133A84725162986EA324EEAE25A1E01C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1AAB218A671B1C46F3C1E487F1DBEEA6 /* Pods-HTTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		260BE33EDB4C3DBD36A8C5D31F82BB7D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HTTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		3C37E0C34C8B604041F63B8AE60ACE5B /* Pods-HTTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTTool_Tests-dummy.m"; sourceTree = "<group>"; };
 		3CA9654AB79E84201D7117254C03EBBA /* Pods-HTTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTTool_Example-resources.sh"; sourceTree = "<group>"; };
 		48A688FE753724DB9987A53E86BC20AB /* Pods-HTTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTTool_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -97,8 +99,10 @@
 		CE12218020FDF44B002E3563 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		CE12218120FDF44B002E3563 /* Single.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
 		CE12218720FDF89A002E3563 /* HTTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTool.h; path = HTTool/Classes/HTTool.h; sourceTree = "<group>"; };
-		CE1748A120E4D266003CE7FF /* HTTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTool.m; sourceTree = "<group>"; };
-		CE1748A220E4D266003CE7FF /* HTTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTool.h; sourceTree = "<group>"; };
+		CE12218920FE058F002E3563 /* UITextField+BYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BYHelper.h"; sourceTree = "<group>"; };
+		CE12218A20FE058F002E3563 /* UITextField+BYHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BYHelper.m"; sourceTree = "<group>"; };
+		CE12218E20FE0946002E3563 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		CE12218F20FE0946002E3563 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		E05F42286365E32B68BADBBA36395FAC /* HTTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTTool.xcconfig; sourceTree = "<group>"; };
 		E25A2B2EDBDED497DBD3126E5090965E /* HTTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED318DBB8A8ED06DE30BC699265435F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -225,6 +229,8 @@
 		CE12215C20FDF2C6002E3563 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				CE12218920FE058F002E3563 /* UITextField+BYHelper.h */,
+				CE12218A20FE058F002E3563 /* UITextField+BYHelper.m */,
 				CE12216720FDF305002E3563 /* NSArray+BYHelper.h */,
 				CE12216A20FDF305002E3563 /* NSArray+BYHelper.m */,
 				CE12215D20FDF304002E3563 /* NSDictionary+BYHelper.h */,
@@ -256,14 +262,14 @@
 			path = HTTool/Classes/macro;
 			sourceTree = "<group>";
 		};
-		CE1748A020E4D266003CE7FF /* tool */ = {
+		CE12218D20FE0931002E3563 /* test */ = {
 			isa = PBXGroup;
 			children = (
-				CE1748A120E4D266003CE7FF /* HTTool.m */,
-				CE1748A220E4D266003CE7FF /* HTTool.h */,
+				CE12218E20FE0946002E3563 /* test.h */,
+				CE12218F20FE0946002E3563 /* test.m */,
 			);
-			name = tool;
-			path = HTTool/Classes/tool;
+			name = test;
+			path = HTTool/test;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -296,11 +302,10 @@
 		FC9DACB58EE3924390DC6F5AF4B00B93 /* HTTool */ = {
 			isa = PBXGroup;
 			children = (
+				CE12218D20FE0931002E3563 /* test */,
 				CE12218720FDF89A002E3563 /* HTTool.h */,
 				CE12217D20FDF43F002E3563 /* macro */,
 				CE12215C20FDF2C6002E3563 /* category */,
-				CE1748A020E4D266003CE7FF /* tool */,
-				260BE33EDB4C3DBD36A8C5D31F82BB7D /* ReplaceMe.m */,
 				DADC61AAD564C666C202618B6458CD3E /* Pod */,
 				A1CBE011E4D90DED353D36DF84CCCE0D /* Support Files */,
 			);
@@ -325,9 +330,11 @@
 				CE12216F20FDF305002E3563 /* UIViewExt.h in Headers */,
 				61599BF0709655D2ADBF91493F22B493 /* HTTool-umbrella.h in Headers */,
 				CE12217820FDF305002E3563 /* UIView+BYHelper.h in Headers */,
+				CE12219020FE0946002E3563 /* test.h in Headers */,
 				CE12217420FDF305002E3563 /* UIButton+BYHelper.h in Headers */,
 				CE12218820FDF89B002E3563 /* HTTool.h in Headers */,
 				CE12218320FDF44B002E3563 /* EncoderDecoder.h in Headers */,
+				CE12218B20FE058F002E3563 /* UITextField+BYHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,9 +463,10 @@
 				CE12217C20FDF305002E3563 /* UIViewExt.m in Sources */,
 				CE12216E20FDF305002E3563 /* UIImage+BYCommon.m in Sources */,
 				CE12217520FDF305002E3563 /* NSDictionary+BYHelper.m in Sources */,
+				CE12219120FE0946002E3563 /* test.m in Sources */,
 				348C1A423F0221979E0CDC45277E60C5 /* HTTool-dummy.m in Sources */,
 				CE12217920FDF305002E3563 /* UIButton+BYHelper.m in Sources */,
-				029D8D1F2FE4C6440A269FA0673B2AAC /* ReplaceMe.m in Sources */,
+				CE12218C20FE058F002E3563 /* UITextField+BYHelper.m in Sources */,
 				CE12217A20FDF305002E3563 /* NSArray+BYHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
