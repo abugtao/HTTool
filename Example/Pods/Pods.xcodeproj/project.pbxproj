@@ -36,8 +36,8 @@
 		CE12218820FDF89B002E3563 /* HTTool.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12218720FDF89A002E3563 /* HTTool.h */; };
 		CE12218B20FE058F002E3563 /* UITextField+BYHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12218920FE058F002E3563 /* UITextField+BYHelper.h */; };
 		CE12218C20FE058F002E3563 /* UITextField+BYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE12218A20FE058F002E3563 /* UITextField+BYHelper.m */; };
-		CE12219020FE0946002E3563 /* test.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12218E20FE0946002E3563 /* test.h */; };
-		CE12219120FE0946002E3563 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = CE12218F20FE0946002E3563 /* test.m */; };
+		CE12219520FE0ED7002E3563 /* test.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12219320FE0ED7002E3563 /* test.h */; };
+		CE12219620FE0ED7002E3563 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = CE12219420FE0ED7002E3563 /* test.m */; };
 		DA1D512B23CB862F3AE7E39DC0C61793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -101,8 +101,8 @@
 		CE12218720FDF89A002E3563 /* HTTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTool.h; path = HTTool/Classes/HTTool.h; sourceTree = "<group>"; };
 		CE12218920FE058F002E3563 /* UITextField+BYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BYHelper.h"; sourceTree = "<group>"; };
 		CE12218A20FE058F002E3563 /* UITextField+BYHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BYHelper.m"; sourceTree = "<group>"; };
-		CE12218E20FE0946002E3563 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
-		CE12218F20FE0946002E3563 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		CE12219320FE0ED7002E3563 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		CE12219420FE0ED7002E3563 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		E05F42286365E32B68BADBBA36395FAC /* HTTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTTool.xcconfig; sourceTree = "<group>"; };
 		E25A2B2EDBDED497DBD3126E5090965E /* HTTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED318DBB8A8ED06DE30BC699265435F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -262,14 +262,14 @@
 			path = HTTool/Classes/macro;
 			sourceTree = "<group>";
 		};
-		CE12218D20FE0931002E3563 /* test */ = {
+		CE12219220FE0ECF002E3563 /* test */ = {
 			isa = PBXGroup;
 			children = (
-				CE12218E20FE0946002E3563 /* test.h */,
-				CE12218F20FE0946002E3563 /* test.m */,
+				CE12219320FE0ED7002E3563 /* test.h */,
+				CE12219420FE0ED7002E3563 /* test.m */,
 			);
 			name = test;
-			path = HTTool/test;
+			path = HTTool/Classes/test;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -302,7 +302,7 @@
 		FC9DACB58EE3924390DC6F5AF4B00B93 /* HTTool */ = {
 			isa = PBXGroup;
 			children = (
-				CE12218D20FE0931002E3563 /* test */,
+				CE12219220FE0ECF002E3563 /* test */,
 				CE12218720FDF89A002E3563 /* HTTool.h */,
 				CE12217D20FDF43F002E3563 /* macro */,
 				CE12215C20FDF2C6002E3563 /* category */,
@@ -330,7 +330,7 @@
 				CE12216F20FDF305002E3563 /* UIViewExt.h in Headers */,
 				61599BF0709655D2ADBF91493F22B493 /* HTTool-umbrella.h in Headers */,
 				CE12217820FDF305002E3563 /* UIView+BYHelper.h in Headers */,
-				CE12219020FE0946002E3563 /* test.h in Headers */,
+				CE12219520FE0ED7002E3563 /* test.h in Headers */,
 				CE12217420FDF305002E3563 /* UIButton+BYHelper.h in Headers */,
 				CE12218820FDF89B002E3563 /* HTTool.h in Headers */,
 				CE12218320FDF44B002E3563 /* EncoderDecoder.h in Headers */,
@@ -463,7 +463,7 @@
 				CE12217C20FDF305002E3563 /* UIViewExt.m in Sources */,
 				CE12216E20FDF305002E3563 /* UIImage+BYCommon.m in Sources */,
 				CE12217520FDF305002E3563 /* NSDictionary+BYHelper.m in Sources */,
-				CE12219120FE0946002E3563 /* test.m in Sources */,
+				CE12219620FE0ED7002E3563 /* test.m in Sources */,
 				348C1A423F0221979E0CDC45277E60C5 /* HTTool-dummy.m in Sources */,
 				CE12217920FDF305002E3563 /* UIButton+BYHelper.m in Sources */,
 				CE12218C20FE058F002E3563 /* UITextField+BYHelper.m in Sources */,
