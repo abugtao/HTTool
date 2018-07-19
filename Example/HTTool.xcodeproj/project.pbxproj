@@ -64,6 +64,28 @@
 		ABA84D5997737017B195CFB5 /* Pods_HTTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC48D61B5E6B95D69D15E44 /* Pods-HTTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTTool_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTTool_Example/Pods-HTTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C381E1A745D5777DDD8E6D4B /* Pods_HTTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1221B120FF64E3002E3563 /* UIImage+BYCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BYCommon.m"; sourceTree = "<group>"; };
+		CE1221B220FF64E3002E3563 /* NSArray+BYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+BYHelper.h"; sourceTree = "<group>"; };
+		CE1221B320FF64E3002E3563 /* UILabel+BYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+BYHelper.h"; sourceTree = "<group>"; };
+		CE1221B420FF64E3002E3563 /* NSDictionary+BYHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BYHelper.m"; sourceTree = "<group>"; };
+		CE1221B520FF64E3002E3563 /* UIView+BYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+BYHelper.h"; sourceTree = "<group>"; };
+		CE1221B620FF64E3002E3563 /* UITextField+BYHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BYHelper.m"; sourceTree = "<group>"; };
+		CE1221B720FF64E3002E3563 /* UIButton+BYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+BYHelper.h"; sourceTree = "<group>"; };
+		CE1221B820FF64E3002E3563 /* UIViewExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		CE1221B920FF64E3002E3563 /* UIImage+BYCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+BYCommon.h"; sourceTree = "<group>"; };
+		CE1221BA20FF64E3002E3563 /* NSArray+BYHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BYHelper.m"; sourceTree = "<group>"; };
+		CE1221BB20FF64E3002E3563 /* UILabel+BYHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BYHelper.m"; sourceTree = "<group>"; };
+		CE1221BC20FF64E3002E3563 /* UIViewExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		CE1221BD20FF64E3002E3563 /* UIButton+BYHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BYHelper.m"; sourceTree = "<group>"; };
+		CE1221BE20FF64E3002E3563 /* UITextField+BYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+BYHelper.h"; sourceTree = "<group>"; };
+		CE1221BF20FF64E3002E3563 /* UIView+BYHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+BYHelper.m"; sourceTree = "<group>"; };
+		CE1221C020FF64E3002E3563 /* NSDictionary+BYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BYHelper.h"; sourceTree = "<group>"; };
+		CE1221C120FF64E3002E3563 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		CE1221C320FF64E3002E3563 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		CE1221C420FF64E3002E3563 /* ColorAndFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorAndFont.h; sourceTree = "<group>"; };
+		CE1221C520FF64E3002E3563 /* Single.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
+		CE1221C620FF64E3002E3563 /* EncoderDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncoderDecoder.h; sourceTree = "<group>"; };
+		CE1221C720FF64E3002E3563 /* HTTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTool.h; sourceTree = "<group>"; };
 		D19B3B057058E326BD53CD35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EEC0A380EC76BF9D567D03EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F0F0EE02CFED98F4B49942A7 /* Pods-HTTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTTool_Tests/Pods-HTTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +131,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				CE1221AA20FF64E3002E3563 /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for HTTool */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -194,6 +217,60 @@
 				EEC0A380EC76BF9D567D03EA /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		CE1221AA20FF64E3002E3563 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE1221B020FF64E3002E3563 /* category */,
+				CE1221C120FF64E3002E3563 /* .gitkeep */,
+				CE1221C220FF64E3002E3563 /* macro */,
+				CE1221C720FF64E3002E3563 /* HTTool.h */,
+				CE1221C820FF64E3002E3563 /* tool */,
+			);
+			name = Classes;
+			path = ../HTTool/Classes;
+			sourceTree = "<group>";
+		};
+		CE1221B020FF64E3002E3563 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				CE1221B120FF64E3002E3563 /* UIImage+BYCommon.m */,
+				CE1221B220FF64E3002E3563 /* NSArray+BYHelper.h */,
+				CE1221B320FF64E3002E3563 /* UILabel+BYHelper.h */,
+				CE1221B420FF64E3002E3563 /* NSDictionary+BYHelper.m */,
+				CE1221B520FF64E3002E3563 /* UIView+BYHelper.h */,
+				CE1221B620FF64E3002E3563 /* UITextField+BYHelper.m */,
+				CE1221B720FF64E3002E3563 /* UIButton+BYHelper.h */,
+				CE1221B820FF64E3002E3563 /* UIViewExt.m */,
+				CE1221B920FF64E3002E3563 /* UIImage+BYCommon.h */,
+				CE1221BA20FF64E3002E3563 /* NSArray+BYHelper.m */,
+				CE1221BB20FF64E3002E3563 /* UILabel+BYHelper.m */,
+				CE1221BC20FF64E3002E3563 /* UIViewExt.h */,
+				CE1221BD20FF64E3002E3563 /* UIButton+BYHelper.m */,
+				CE1221BE20FF64E3002E3563 /* UITextField+BYHelper.h */,
+				CE1221BF20FF64E3002E3563 /* UIView+BYHelper.m */,
+				CE1221C020FF64E3002E3563 /* NSDictionary+BYHelper.h */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		CE1221C220FF64E3002E3563 /* macro */ = {
+			isa = PBXGroup;
+			children = (
+				CE1221C320FF64E3002E3563 /* Define.h */,
+				CE1221C420FF64E3002E3563 /* ColorAndFont.h */,
+				CE1221C520FF64E3002E3563 /* Single.h */,
+				CE1221C620FF64E3002E3563 /* EncoderDecoder.h */,
+			);
+			path = macro;
+			sourceTree = "<group>";
+		};
+		CE1221C820FF64E3002E3563 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

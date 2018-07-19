@@ -30,14 +30,20 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-s.source_files = 'HTTool/Classes/*.{h,m}'
-  
-  s.subspec 'category' do |category|
-      category.source_files = 'HTTool/Classes/category/**/*'
-  end
-  
+  s.source_files = 'HTTool/Classes/**/*.{h,m}'
+
+
   s.subspec 'macro' do |macro|
       macro.source_files = 'HTTool/Classes/macro/**/*'
+  end
+
+
+  #这里创建组件中的文件夹
+  s.subspec 'category' do |category|
+      category.source_files = 'HTTool/Classes/category/**/*'
+      #这行解决文件夹中的类对别的文件夹的类有依赖
+      category.dependency 'HTTool/macro'
+      
   end
   
   s.subspec 'test' do |test|

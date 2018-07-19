@@ -10,6 +10,11 @@
 
 @interface UIImage (BYCommon)
 
-+(UIImage *)imageWithColor:(UIColor *)aColor;
-+(UIImage *)imageWithColor:(UIColor *)aColor withFrame:(CGRect)aFrame;
+
+//根据颜色生成一个图片zise=1*1
++(UIImage *)by_imageWithColor:(UIColor *)aColor;
+//根据颜色生成一个图片zise可以定制
++(UIImage *)by_imageWithColor:(UIColor *)aColor withSize:(CGSize)size;
+//生成圆角的图片
+- (UIImage *)by_getCircleImage;
 @end

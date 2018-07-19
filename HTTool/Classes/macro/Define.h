@@ -18,13 +18,17 @@
 #define APPCURRENTVERSION [[NSBundle mainBundle] infoDictionary][@"CFBundleShortVersionString"]
 //userDefault
 #define USERDEFFAULTS [NSUserDefaults standardUserDefaults]
+//application
+#define KAPPLICATION [UIApplication sharedApplication]
 //keywindow
-#define BYKeyWindow [UIApplication sharedApplication].keyWindow
+#define KEYWINDOW [UIApplication sharedApplication].keyWindow
+//appdelegate
+#define KAPPDELEGATE ((AppDelegate*)[UIApplication sharedApplication].delegate)
 
 //判断是否是iPhone X
-#define LL_iPhoneX  ((SCREEN_WDITH == 375 && SCREEN_HEIGTH == 812) ? YES:NO)
-#define TOP_CONST_HEIGHT  (LL_iPhoneX ? 88.0 : 64.0)
-#define BOTTOM_CONST_HEIGHT (LL_iPhoneX? 83.0 : 49.0)
+#define LL_IPHONEX  ((SCREEN_WDITH == 375 && SCREEN_HEIGTH == 812) ? YES:NO)
+#define TOP_CONST_HEIGHT  (LL_IPHONEX ? 88.0 : 64.0)
+#define BOTTOM_CONST_HEIGHT (LL_IPHONEX? 83.0 : 49.0)
 
 
 

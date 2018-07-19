@@ -10,24 +10,9 @@
 #import <objc/runtime.h>
 static char overviewKey;
 @implementation UIView (BYHelper)
-- (void)setClickBlock:(void(^)(void))block{
-    self.userInteractionEnabled = YES;
-    
-    UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didClick)];
-    [self addGestureRecognizer:tap];
-    objc_setAssociatedObject(self, &overviewKey, block, OBJC_ASSOCIATION_COPY);
-}
 
-- (void)didClick
-{
-    void (^block)(void) =  objc_getAssociatedObject(self, &overviewKey);
-    if (block) {
-        block();
-    }
-}
-
-
-+ (id)lineViewWith:(CGFloat)value isVertical:(BOOL)b withColor:(UIColor *)color{
+//创建line
++ (id)by_lineViewWith:(CGFloat)value isVertical:(BOOL)b withColor:(UIColor *)color{
     UIView *view = [[UIView alloc] init];
     view.backgroundColor = color;
     if (b) {
@@ -37,4 +22,24 @@ static char overviewKey;
     }
     return view;
 }
+
+
+//添加点击事件，点击执行block
+- (void)by_setClickBlock:(void(^)(void))block{
+    self.userInteractionEnabled = YES;
+    
+    UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didClick)];
+    [self addGestureRecognizer:tap];
+    objc_setAssociatedObject(self, &overviewKey, block, OBJC_ASSOCIATION_COPY);
+}
+- (void)didClick
+{
+    void (^block)(void) =  objc_getAssociatedObject(self, &overviewKey);
+    if (block) {
+        block();
+    }
+}
+
+
+
 @end

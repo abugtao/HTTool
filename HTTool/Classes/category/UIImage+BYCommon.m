@@ -9,18 +9,32 @@
 #import "UIImage+BYCommon.h"
 
 @implementation UIImage (BYCommon)
-+(UIImage *)imageWithColor:(UIColor *)aColor{
-    return [UIImage imageWithColor:aColor withFrame:CGRectMake(0, 0, 1, 1)];
+//根据颜色生成一个图片zise=1*1
++(UIImage *)by_imageWithColor:(UIColor *)aColor{
+    return [UIImage by_imageWithColor:aColor withSize:CGSizeMake(1, 1)];
 }
-
-+(UIImage *)imageWithColor:(UIColor *)aColor withFrame:(CGRect)aFrame{
-    UIGraphicsBeginImageContext(aFrame.size);
+//根据颜色生成一个图片zise可以定制
++(UIImage *)by_imageWithColor:(UIColor *)aColor withSize:(CGSize)size{
+    UIGraphicsBeginImageContext(size);
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetFillColorWithColor(context, [aColor CGColor]);
-    CGContextFillRect(context, aFrame);
+    CGContextFillRect(context, CGRectMake(0, 0, size.width, size.height));
     UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
     
     UIGraphicsEndImageContext();
     return img;
+}
+//生成圆角的图片
+- (UIImage *)by_getCircleImage
+{
+    UIGraphicsBeginImageContext(self.size);
+    CGContextRef ctx = UIGraphicsGetCurrentContext();
+    CGRect rect = CGRectMake(0, 0, self.size.width, self.size.height);
+    CGContextAddEllipseInRect(ctx, rect);
+    CGContextClip(ctx);
+    [self drawInRect:rect];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
 }
 @end

@@ -9,8 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UIButton (BYHelper)
-//+ (id)labelWithTextColor:(UIColor *)color font:(UIFont *)font textAlignment:(NSTextAlignment)alignment;
-+ (id)buttonWithFrame:(CGRect)frame textColor:(UIColor *)color font:(UIFont *)font title:(NSString *)title;
-
-+ (id)buttonWithFrame:(CGRect)frame textColor:(UIColor *)color font:(UIFont *)font title:(NSString *)title boardColor:(UIColor *)bcolor cornerRadius:(CGFloat)corner;
+//创建button
++ (id)by_buttonWithFrame:(CGRect)frame bgColro:(UIColor *)bgColor textColor:(UIColor *)color font:(UIFont *)font title:(NSString *)title;
++ (id)by_buttonWithFrame:(CGRect)frame bgColro:(UIColor *)bgColor textColor:(UIColor *)color font:(UIFont *)font title:(NSString *)title boardColor:(UIColor *)bcolor cornerRadius:(CGFloat)corner;
 @end

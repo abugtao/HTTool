@@ -9,10 +9,11 @@
 #import "UILabel+BYHelper.h"
 
 @implementation UILabel (BYHelper)
-+ (id)labelWithTextColor:(UIColor *)color font:(UIFont *)font textAlignment:(NSTextAlignment)alignment{
-    return [self labelWithTextColor:color font:font textAlignment:alignment text:nil];
+//创建label
++ (id)by_labelWithTextColor:(UIColor *)color font:(UIFont *)font textAlignment:(NSTextAlignment)alignment{
+    return [self by_labelWithTextColor:color font:font textAlignment:alignment text:nil];
 }
-+ (id)labelWithTextColor:(UIColor *)color font:(UIFont *)font textAlignment:(NSTextAlignment)alignment text:(NSString *)text{
++ (id)by_labelWithTextColor:(UIColor *)color font:(UIFont *)font textAlignment:(NSTextAlignment)alignment text:(NSString *)text{
     UILabel *label = [[[self class] alloc] init];
     label.backgroundColor = [UIColor clearColor];
     label.textColor = color;
@@ -23,41 +24,23 @@
     return label;
 }
 
-- (void)setTextColor:(UIColor *)textColor range:(NSRange)range
-{
-    NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithAttributedString: self.attributedText];
-    [text addAttribute: NSForegroundColorAttributeName
-                 value: textColor
-                 range: range];
-    
-    [self setAttributedText: text];
-}
 
-- (void)setFont:(UIFont *)font range:(NSRange)range
+//设置字符串中指定字符串的颜色和大小
+- (void)by_setTextColor:(UIColor *)textColor contentString:(NSString *)contentString
 {
-    NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithAttributedString: self.attributedText];
-    [text addAttribute: NSFontAttributeName
-                 value: font
-                 range: range];
-    
-    [self setAttributedText: text];
-}
-
-- (void)setTextColor:(UIColor *)textColor contentString:(NSString *)string
-{
-    if (!string.length) {
+    if (!contentString.length) {
         return;
     }
     
-    NSRange range = [self.text rangeOfString:string];
+    NSRange range = [self.text rangeOfString:contentString];
     
     if (range.location != NSNotFound)
     {
-        [self setTextColor:textColor range:range];
+        [self by_setTextColor:textColor range:range];
     }
 }
 
-- (void)setFont:(UIFont *)font contentString:(NSString *)contentString
+- (void)by_setFont:(UIFont *)font contentString:(NSString *)contentString
 {
     
     if (!contentString.length) {
@@ -68,44 +51,65 @@
     
     if (range.location != NSNotFound)
     {
-        [self setFont:font range:range];
+        [self by_setFont:font range:range];
     }
 }
 
 
-- (void)setTextColor:(UIColor *)textColor afterOccurenceOfString:(NSString*)separator{
-    
-    NSRange range = [self.text rangeOfString:separator];
-    
-    if (range.location != NSNotFound)
-    {
-        range.location ++;
-        range.length = self.text.length - range.location;
-        [self setTextColor:textColor range:range];
-    }
-}
-
-- (void)setFont:(UIFont *)font afterOccurenceOfString:(NSString*)separator{
-    
-    NSRange range = [self.text rangeOfString:separator];
-    
-    if (range.location != NSNotFound)
-    {
-        range.location ++;
-        range.length = self.text.length - range.location;
-        [self setFont:font range:range];
-    }
-}
-
-
-
-- (void)setLineHeightMargin:(CGFloat)margin
+//设置字符串中指定位置的颜色和大小
+- (void)by_setTextColor:(UIColor *)textColor range:(NSRange)range
 {
-    NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithAttributedString:self.attributedText];
+    NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithAttributedString: self.attributedText];
+    [text addAttribute: NSForegroundColorAttributeName
+                 value: textColor
+                 range: range];
+    
+    [self setAttributedText: text];
+}
+
+- (void)by_setFont:(UIFont *)font range:(NSRange)range
+{
+    NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithAttributedString: self.attributedText];
+    [text addAttribute: NSFontAttributeName
+                 value: font
+                 range: range];
+    
+    [self setAttributedText: text];
+}
+
+
+
+//设置字符串中指定位置的颜色和大小
+- (void)by_setTextColor:(UIColor *)textColor afterOccurenceOfString:(NSString*)string{
+    
+    NSRange range = [self.text rangeOfString:string];
+    if (range.location != NSNotFound)
+    {
+        range.location += string.length;
+        range.length = self.text.length - range.location;
+        [self by_setTextColor:textColor range:range];
+    }
+}
+
+- (void)by_setFont:(UIFont *)font afterOccurenceOfString:(NSString*)string{
+    
+    NSRange range = [self.text rangeOfString:string];
+    if (range.location != NSNotFound)
+    {
+        range.location += string.length;
+        range.length = self.text.length - range.location;
+        [self by_setFont:font range:range];
+    }
+}
+
+//设置行间距
+- (void)by_setLineHeightMargin:(CGFloat)margin
+{
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithAttributedString:self.attributedText];
     NSMutableParagraphStyle *style = [[NSMutableParagraphStyle alloc] init];
     style.lineSpacing = margin;//行距
     [style setLineBreakMode:NSLineBreakByTruncatingTail];
-    [text addAttribute:NSParagraphStyleAttributeName value:style range:NSMakeRange(0,  self.text.length)];
-    [self setAttributedText: text];
+    [attributedString addAttribute:NSParagraphStyleAttributeName value:style range:NSMakeRange(0,  self.text.length)];
+    [self setAttributedText: attributedString];
 }
 @end

@@ -9,8 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (BYHelper)
-- (void)setClickBlock:(void(^)(void))block;
+
+//创建line
++ (id)by_lineViewWith:(CGFloat)value isVertical:(BOOL)b withColor:(UIColor *)color;
+
+//添加点击事件，点击执行block
+- (void)by_setClickBlock:(void(^)(void))block;
 
 
-+ (id)lineViewWith:(CGFloat)value isVertical:(BOOL)b withColor:(UIColor *)color;
 @end
