@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTTool'
-  s.version          = '0.16.0'
+  s.version          = '0.18.0'
   s.summary          = 'my tool'
 
 # This description is used to generate tags and improve search results.
@@ -46,7 +46,7 @@ TODO: Add long description of the pod here.
   end
   
   s.subspec 'tool' do |tool|
-      tool.source_files = 'HTTool/Classes/Tool/**/*'
+      tool.source_files = 'HTTool/Classes/tool/**/*'
   end
   
   
