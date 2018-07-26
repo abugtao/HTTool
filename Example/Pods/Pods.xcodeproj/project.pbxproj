@@ -36,6 +36,20 @@
 		CE12218820FDF89B002E3563 /* HTTool.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12218720FDF89A002E3563 /* HTTool.h */; };
 		CE12218B20FE058F002E3563 /* UITextField+BYHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12218920FE058F002E3563 /* UITextField+BYHelper.h */; };
 		CE12218C20FE058F002E3563 /* UITextField+BYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE12218A20FE058F002E3563 /* UITextField+BYHelper.m */; };
+		CE1221CF21003FDD002E3563 /* NSDate+BYHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1221CD21003FDD002E3563 /* NSDate+BYHelper.h */; };
+		CE1221D021003FDD002E3563 /* NSDate+BYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1221CE21003FDD002E3563 /* NSDate+BYHelper.m */; };
+		CE1221D6210073CA002E3563 /* NSString+BYHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1221D4210073CA002E3563 /* NSString+BYHelper.h */; };
+		CE1221D7210073CA002E3563 /* NSString+BYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1221D5210073CA002E3563 /* NSString+BYHelper.m */; };
+		CE1221DB210076F5002E3563 /* BYDeviceTool.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1221D9210076F5002E3563 /* BYDeviceTool.h */; };
+		CE1221DC210076F5002E3563 /* BYDeviceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1221DA210076F5002E3563 /* BYDeviceTool.m */; };
+		CE1221E221007C58002E3563 /* BYInputTool.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1221E021007C58002E3563 /* BYInputTool.h */; };
+		CE1221E321007C58002E3563 /* BYInputTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1221E121007C58002E3563 /* BYInputTool.m */; };
+		CE1366F121095C7400927A1A /* NSObject+BYHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1366EF21095C7400927A1A /* NSObject+BYHelper.h */; };
+		CE1366F221095C7400927A1A /* NSObject+BYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1366F021095C7400927A1A /* NSObject+BYHelper.m */; };
+		CE1366FB2109619200927A1A /* UIControl+BYHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1366F92109619200927A1A /* UIControl+BYHelper.h */; };
+		CE1366FC2109619200927A1A /* UIControl+BYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1366FA2109619200927A1A /* UIControl+BYHelper.m */; };
+		CE1367022109638400927A1A /* UIViewController+BYHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1367002109638400927A1A /* UIViewController+BYHelper.h */; };
+		CE1367032109638400927A1A /* UIViewController+BYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1367012109638400927A1A /* UIViewController+BYHelper.m */; };
 		DA1D512B23CB862F3AE7E39DC0C61793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +113,20 @@
 		CE12218720FDF89A002E3563 /* HTTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTool.h; path = HTTool/Classes/HTTool.h; sourceTree = "<group>"; };
 		CE12218920FE058F002E3563 /* UITextField+BYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BYHelper.h"; sourceTree = "<group>"; };
 		CE12218A20FE058F002E3563 /* UITextField+BYHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BYHelper.m"; sourceTree = "<group>"; };
+		CE1221CD21003FDD002E3563 /* NSDate+BYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+BYHelper.h"; sourceTree = "<group>"; };
+		CE1221CE21003FDD002E3563 /* NSDate+BYHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BYHelper.m"; sourceTree = "<group>"; };
+		CE1221D4210073CA002E3563 /* NSString+BYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+BYHelper.h"; sourceTree = "<group>"; };
+		CE1221D5210073CA002E3563 /* NSString+BYHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+BYHelper.m"; sourceTree = "<group>"; };
+		CE1221D9210076F5002E3563 /* BYDeviceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYDeviceTool.h; sourceTree = "<group>"; };
+		CE1221DA210076F5002E3563 /* BYDeviceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYDeviceTool.m; sourceTree = "<group>"; };
+		CE1221E021007C58002E3563 /* BYInputTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYInputTool.h; sourceTree = "<group>"; };
+		CE1221E121007C58002E3563 /* BYInputTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYInputTool.m; sourceTree = "<group>"; };
+		CE1366EF21095C7400927A1A /* NSObject+BYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+BYHelper.h"; sourceTree = "<group>"; };
+		CE1366F021095C7400927A1A /* NSObject+BYHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BYHelper.m"; sourceTree = "<group>"; };
+		CE1366F92109619200927A1A /* UIControl+BYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+BYHelper.h"; sourceTree = "<group>"; };
+		CE1366FA2109619200927A1A /* UIControl+BYHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+BYHelper.m"; sourceTree = "<group>"; };
+		CE1367002109638400927A1A /* UIViewController+BYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BYHelper.h"; sourceTree = "<group>"; };
+		CE1367012109638400927A1A /* UIViewController+BYHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BYHelper.m"; sourceTree = "<group>"; };
 		E05F42286365E32B68BADBBA36395FAC /* HTTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTTool.xcconfig; sourceTree = "<group>"; };
 		E25A2B2EDBDED497DBD3126E5090965E /* HTTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED318DBB8A8ED06DE30BC699265435F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -229,6 +257,10 @@
 				CE12216A20FDF305002E3563 /* NSArray+BYHelper.m */,
 				CE12215D20FDF304002E3563 /* NSDictionary+BYHelper.h */,
 				CE12216520FDF305002E3563 /* NSDictionary+BYHelper.m */,
+				CE1221D4210073CA002E3563 /* NSString+BYHelper.h */,
+				CE1221D5210073CA002E3563 /* NSString+BYHelper.m */,
+				CE1221CD21003FDD002E3563 /* NSDate+BYHelper.h */,
+				CE1221CE21003FDD002E3563 /* NSDate+BYHelper.m */,
 				CE12218920FE058F002E3563 /* UITextField+BYHelper.h */,
 				CE12218A20FE058F002E3563 /* UITextField+BYHelper.m */,
 				CE12216420FDF305002E3563 /* UIButton+BYHelper.h */,
@@ -241,6 +273,12 @@
 				CE12216320FDF305002E3563 /* UIView+BYHelper.m */,
 				CE12215F20FDF304002E3563 /* UIViewExt.h */,
 				CE12216C20FDF305002E3563 /* UIViewExt.m */,
+				CE1366EF21095C7400927A1A /* NSObject+BYHelper.h */,
+				CE1366F021095C7400927A1A /* NSObject+BYHelper.m */,
+				CE1366F92109619200927A1A /* UIControl+BYHelper.h */,
+				CE1366FA2109619200927A1A /* UIControl+BYHelper.m */,
+				CE1367002109638400927A1A /* UIViewController+BYHelper.h */,
+				CE1367012109638400927A1A /* UIViewController+BYHelper.m */,
 			);
 			name = category;
 			path = HTTool/Classes/category;
@@ -256,6 +294,18 @@
 			);
 			name = macro;
 			path = HTTool/Classes/macro;
+			sourceTree = "<group>";
+		};
+		CE1221D8210075B4002E3563 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				CE1221D9210076F5002E3563 /* BYDeviceTool.h */,
+				CE1221DA210076F5002E3563 /* BYDeviceTool.m */,
+				CE1221E021007C58002E3563 /* BYInputTool.h */,
+				CE1221E121007C58002E3563 /* BYInputTool.m */,
+			);
+			name = tool;
+			path = HTTool/Classes/tool;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -288,6 +338,7 @@
 		FC9DACB58EE3924390DC6F5AF4B00B93 /* HTTool */ = {
 			isa = PBXGroup;
 			children = (
+				CE1221D8210075B4002E3563 /* tool */,
 				CE12218720FDF89A002E3563 /* HTTool.h */,
 				CE12217D20FDF43F002E3563 /* macro */,
 				CE12215C20FDF2C6002E3563 /* category */,
@@ -305,18 +356,25 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1366F121095C7400927A1A /* NSObject+BYHelper.h in Headers */,
 				CE12216D20FDF305002E3563 /* NSDictionary+BYHelper.h in Headers */,
 				CE12218420FDF44B002E3563 /* Define.h in Headers */,
 				CE12217720FDF305002E3563 /* NSArray+BYHelper.h in Headers */,
 				CE12218220FDF44B002E3563 /* ColorAndFont.h in Headers */,
+				CE1221E221007C58002E3563 /* BYInputTool.h in Headers */,
 				CE12217620FDF305002E3563 /* UIImage+BYCommon.h in Headers */,
 				CE12217B20FDF305002E3563 /* UILabel+BYHelper.h in Headers */,
 				CE12218520FDF44B002E3563 /* Single.h in Headers */,
+				CE1221D6210073CA002E3563 /* NSString+BYHelper.h in Headers */,
+				CE1221CF21003FDD002E3563 /* NSDate+BYHelper.h in Headers */,
+				CE1366FB2109619200927A1A /* UIControl+BYHelper.h in Headers */,
 				CE12216F20FDF305002E3563 /* UIViewExt.h in Headers */,
+				CE1367022109638400927A1A /* UIViewController+BYHelper.h in Headers */,
 				61599BF0709655D2ADBF91493F22B493 /* HTTool-umbrella.h in Headers */,
 				CE12217820FDF305002E3563 /* UIView+BYHelper.h in Headers */,
 				CE12217420FDF305002E3563 /* UIButton+BYHelper.h in Headers */,
 				CE12218820FDF89B002E3563 /* HTTool.h in Headers */,
+				CE1221DB210076F5002E3563 /* BYDeviceTool.h in Headers */,
 				CE12218320FDF44B002E3563 /* EncoderDecoder.h in Headers */,
 				CE12218B20FE058F002E3563 /* UITextField+BYHelper.h in Headers */,
 			);
@@ -443,13 +501,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE12217220FDF305002E3563 /* UILabel+BYHelper.m in Sources */,
+				CE1366FC2109619200927A1A /* UIControl+BYHelper.m in Sources */,
 				CE12217320FDF305002E3563 /* UIView+BYHelper.m in Sources */,
 				CE12217C20FDF305002E3563 /* UIViewExt.m in Sources */,
 				CE12216E20FDF305002E3563 /* UIImage+BYCommon.m in Sources */,
+				CE1221E321007C58002E3563 /* BYInputTool.m in Sources */,
 				CE12217520FDF305002E3563 /* NSDictionary+BYHelper.m in Sources */,
+				CE1366F221095C7400927A1A /* NSObject+BYHelper.m in Sources */,
 				348C1A423F0221979E0CDC45277E60C5 /* HTTool-dummy.m in Sources */,
+				CE1367032109638400927A1A /* UIViewController+BYHelper.m in Sources */,
 				CE12217920FDF305002E3563 /* UIButton+BYHelper.m in Sources */,
+				CE1221D7210073CA002E3563 /* NSString+BYHelper.m in Sources */,
+				CE1221D021003FDD002E3563 /* NSDate+BYHelper.m in Sources */,
 				CE12218C20FE058F002E3563 /* UITextField+BYHelper.m in Sources */,
+				CE1221DC210076F5002E3563 /* BYDeviceTool.m in Sources */,
 				CE12217A20FDF305002E3563 /* NSArray+BYHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

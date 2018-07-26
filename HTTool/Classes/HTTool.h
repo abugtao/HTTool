@@ -25,7 +25,14 @@
 #import "UITextField+BYHelper.h"
 
 #import "UIImage+BYCommon.h"
+#import "NSDate+BYHelper.h"
+#import "NSString+BYHelper.h"
+#import "NSObject+BYHelper.h"
 
+
+//工具
+#import "BYDeviceTool.h"
+#import "BYInputTool.h"
 
 
 #endif /* HTTool_h */

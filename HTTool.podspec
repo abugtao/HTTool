@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTTool'
-  s.version          = '0.14.0'
+  s.version          = '0.16.0'
   s.summary          = 'my tool'
 
 # This description is used to generate tags and improve search results.
@@ -30,13 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HTTool/Classes/**/*.{h,m}'
+  s.source_files = 'HTTool/Classes/*.{h,m}'
 
 
   s.subspec 'macro' do |macro|
       macro.source_files = 'HTTool/Classes/macro/**/*'
   end
-
 
   #这里创建组件中的文件夹
   s.subspec 'category' do |category|
@@ -46,8 +45,8 @@ TODO: Add long description of the pod here.
       
   end
   
-  s.subspec 'test' do |test|
-      test.source_files = 'HTTool/Classes/test/**/*'
+  s.subspec 'tool' do |tool|
+      tool.source_files = 'HTTool/Classes/Tool/**/*'
   end
   
   
