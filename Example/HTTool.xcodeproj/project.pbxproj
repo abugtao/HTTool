@@ -30,6 +30,7 @@
 		CE1366F721095D2200927A1A /* NSString+BYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1366F321095D2200927A1A /* NSString+BYHelper.m */; };
 		CE1366F821095D2200927A1A /* NSObject+BYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1366F521095D2200927A1A /* NSObject+BYHelper.m */; };
 		CE1366FF2109627F00927A1A /* UIControl+BYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1366FE2109627F00927A1A /* UIControl+BYHelper.m */; };
+		CE13670621096D2E00927A1A /* UIViewController+BYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE13670521096D2E00927A1A /* UIViewController+BYHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +105,8 @@
 		CE1366F621095D2200927A1A /* NSObject+BYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BYHelper.h"; sourceTree = "<group>"; };
 		CE1366FD2109627F00927A1A /* UIControl+BYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+BYHelper.h"; sourceTree = "<group>"; };
 		CE1366FE2109627F00927A1A /* UIControl+BYHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+BYHelper.m"; sourceTree = "<group>"; };
+		CE13670421096D2E00927A1A /* UIViewController+BYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BYHelper.h"; sourceTree = "<group>"; };
+		CE13670521096D2E00927A1A /* UIViewController+BYHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BYHelper.m"; sourceTree = "<group>"; };
 		D19B3B057058E326BD53CD35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EEC0A380EC76BF9D567D03EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F0F0EE02CFED98F4B49942A7 /* Pods-HTTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTTool_Tests/Pods-HTTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -253,6 +256,8 @@
 		CE1221B020FF64E3002E3563 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				CE13670421096D2E00927A1A /* UIViewController+BYHelper.h */,
+				CE13670521096D2E00927A1A /* UIViewController+BYHelper.m */,
 				CE1366FD2109627F00927A1A /* UIControl+BYHelper.h */,
 				CE1366FE2109627F00927A1A /* UIControl+BYHelper.m */,
 				CE1366F621095D2200927A1A /* NSObject+BYHelper.h */,
@@ -511,6 +516,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* HTAppDelegate.m in Sources */,
+				CE13670621096D2E00927A1A /* UIViewController+BYHelper.m in Sources */,
 				CE1221E621007D34002E3563 /* BYInputTool.m in Sources */,
 				CE1221D3210041E3002E3563 /* NSDate+BYHelper.m in Sources */,
 				6003F5A7195388D20070C39A /* HTViewController.m in Sources */,

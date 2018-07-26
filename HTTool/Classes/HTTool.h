@@ -23,11 +23,16 @@
 #import "UILabel+BYHelper.h"
 #import "UIButton+BYHelper.h"
 #import "UITextField+BYHelper.h"
+#import "UIControl+BYHelper.h"
+#import "UIViewController+BYHelper.h"
 
 #import "UIImage+BYCommon.h"
 #import "NSDate+BYHelper.h"
 #import "NSString+BYHelper.h"
 #import "NSObject+BYHelper.h"
+#import "NSArray+BYHelper.h"
+#import "NSDictionary+BYHelper.h"
+
 
 
 //工具
